@@ -1,55 +1,40 @@
-* {
-  margin: 0;
-  padding: 0; }
+.navbar {
+  background: #222;
+}
+.navbar .navbar-brand img {
+  height: 60px;
+}
+.navbar .dropdown-menu {
+  background: #222;
+  border-radius: 0;
+  border-top: 5px solid #0DCAF0;
+}
+.navbar .dropdown-menu .dropdown-item {
+  font: 20px "Jersey 10", Inter, Arial;
+  text-transform: uppercase;
+  color: #0DCAF0;
+}
+.navbar .btn {
+  margin-left: 5px;
+}
 
-.header {
-  background: #861D1D;
-  padding: 15px; }
-  .header .header-logo img {
-    width: 200px; }
-  .header .header-menu {
-    display: none; }
+.nav-link {
+  font: 22px "Jersey 10", Inter, Arial;
+  color: #FFF;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: #0DCAF0;
+}
 
-.header-nav {
-  float: right;
-  margin: 15px; }
-  .header-nav ul {
-    list-style: none;
-    text-align: center; }
-  .header-nav li {
-    display: inline-block;
-    margin: 5px 15px;
-    font-weight: bolder; }
-  .header-nav a {
-    text-decoration: none;
-    color: whitesmoke;
-    font: 15px verdana, arial;
-    font-weight: bold;
-    text-transform: uppercase; }
-    .header-nav a:hover {
-      color: #FFFF00; }
+.navbar-nav .nav-link.show {
+  color: #0DCAF0;
+}
 
-.show {
-  display: block !important; }
-
-body {
-  background-color: #2B4447; }
-
-@media (max-width: 460px) {
-  .header .header-menu {
-    display: block;
-    float: right;
-    margin-top: 20px; }
-
-  .header .header-nav {
-    display: block;
-    border-radius: 5px;
-    display: none; }
-
-  .header-nav ul li {
-    width: 100%; }
-
-  .header .header-nav ul li {
-    display: inline-block; } }
+.btn {
+  font: 20px #0DCAF0;
+  border-radius: 0;
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=style.css.map */
