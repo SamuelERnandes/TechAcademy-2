@@ -1,0 +1,43 @@
+$primary: #B81414;
+$secondary: #FFF000;
+$font1:"Jersey 20",Barlow , Arial;
+$font2: Barlow , Arial, Tahoma;
+$clear: #FFF;
+
+.navbar {
+    background-color: $primary;
+    .navbar-brand img {
+        height: 50px;
+    }
+    .nav-link {
+        font: 25px $font1;
+        color: $secondary;
+        text-transform: uppercase;
+        &:hover {
+            color: $clear;
+        }
+    }
+   
+    .navbar-nav .nav-link.show {
+        color: $secondary;
+    }
+    .dropdown-menu {
+        background: $primary;
+        border-radius: 0;
+        border-top: 5px solid $secondary;
+        .dropdown-item {
+            font: 20px $font1;
+            text-transform: uppercase;
+            color: $secondary;
+        }
+    }
+    .btn {
+        margin-left: 15px;
+        
+    }
+ }
+
+ .btn {
+    font: 25px $font1;
+    border-radius: 0;
+ }
