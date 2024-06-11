@@ -1,44 +1,5 @@
 $primary:#222;
-$secondary:#0DCAF0;
-$font:"Jersey 10", Inter, Arial;
-$font2: Inter, Arial, Tahoma;
+$secondary:#FFFF00;
+$font:"Barlow", Tiny5,Arial;
+$font2: Tiny5, Arial, Tahoma;
 
-.navbar {
-    background: $primary;
-    .navbar-brand img {
-        height: 60px;
-    }
-    .dropdown-menu {
-        background: $primary;
-        border-radius: 0;
-        border-top: 5px solid $secondary;
-        .dropdown-item {
-            font: 20px $font;
-            text-transform: uppercase;
-            color: $secondary;
-        }
-    }
-    .btn {
-        margin-left: 5px;
-    }
-}
-
-.nav-link {
-    font: 22px $font;
-    color: #FFF;
-    text-transform: uppercase;
-    &:hover {
-        color: $secondary;
-    }
- 
-}
-
-.navbar-nav  .nav-link.show {
-    color: $secondary;
-}
-
-.btn {
-    font: 20px $secondary;
-    border-radius: 0;
-    text-transform: uppercase;
-}
