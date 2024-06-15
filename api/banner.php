@@ -5,49 +5,49 @@ header("Content-type: application/json;charset-utf-8");
 
 $banner [1]= array (
     "nome" => "SpeedBird",
-    "imagem" => "http://projects/imagens/speedbird.png",
+    "imagem" => "imagens/banner.speedbird1.png",
     "id_game" => 1
 
 );
 $banner [2]= array (
     "nome" => "BubleKid",
-    "imagem" => "http://projects/imagens/banner.bublekid.jpg",
+    "imagem" => "imagens/banner.bublekid.jpg",
     "id_game" => 2
 
 );
 $banner [3]= array (
     "nome" => "Bambo Strick",
-    "imagem" => "http://projects/imagens/banner.bombustrick.jpg",
+    "imagem" => "imagens/banner.bambustrick",
     "id_game" => 3
 
 );
 $banner [4]= array (
     "nome" => "BombSword",
-    "imagem" => "http://projects/imagens/banner.bombsword.jpeg",
+    "imagem" => "imagens/banner.bombsword.jpeg",
     "id_game" => 4
 
 );
 $banner [5]= array (
     "nome" => "Explosion Race",
-    "imagem" => "http://projects/imagens/banner.explosionrace",
+    "imagem" => "imagens/banner.explosionrace",
     "id_game" => 5
 
 );
 $banner [6]= array (
     "nome" => "Assassin's Creed Shadows",
-    "imagem" => "http://projects/imagens/banner.assassincreed.jpg",
+    "imagem" => "imagens/banner.assassincreed.jpg",
     "id_game" => 6
 
 );
 $banner [7]= array (
     "nome" => "Mortal Kombat I",
-    "imagem" => "http://projects/imagens/banner.mortalkombat.jpg",
+    "imagem" => "imagens/banner.mortalkombat.jpg",
     "id_game" => 7
 
 );
 $banner [8]= array (
     "nome" => "Red Dead Redemption II",
-    "imagem" => "http://projects/imagens/reddead.jpg",
+    "imagem" => "imagens/banner.reddead.jpg",
     "id_game" => 8
 
 );

@@ -2,7 +2,7 @@ $primary: #B81414;
 $secondary: #FFF000;
 $font1:"Jersey 20",Barlow , Arial;
 $font2: Barlow , Arial, Tahoma;
-$clear: #FFF;
+$clear: black;
 
 .navbar {
     background-color: $primary;
@@ -14,7 +14,7 @@ $clear: #FFF;
         color: $secondary;
         text-transform: uppercase;
         &:hover {
-            color: $clear;
+            color: black;
         }
     }
    
