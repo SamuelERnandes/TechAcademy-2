@@ -1,6 +1,6 @@
 $primary: #B81414;
 $secondary: #FFF000;
-$font1:"Jersey 20",Barlow , Arial;
+$font1: "Jersey 20",Barlow , Arial;
 $font2: Barlow , Arial, Tahoma;
 $clear: black;
 
@@ -73,6 +73,10 @@ h1 {
  .card {
     margin-bottom: 10px;
     box-shadow: 0 0 10px #878787;
+    img {
+        border-radius: 5px 5px 0 0;
+    }
+
 }
 
  body {
@@ -161,6 +165,80 @@ input {
     }
 }
 
+
+
+
+
+footer {
+    position: absolute;
+    background: $primary;
+    height: auto;
+    width: 100%;
+    font-family: $font2;
+    padding-top: 40px;
+    color: #FFF;
+
+ 
+}
+
+.footer-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+       
+        p {
+            max-width: 500px;
+            margin: 10px auto;
+            line-height: 20px;
+            font-size: 14px;
+        }
+  
+}
+
+.sociais {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+     li {
+        margin: 0 10px;
+     }
+     a{
+        text-decoration: none;
+        color: #FFF;
+        &:hover {
+            color: $secondary;
+        }
+
+        i {
+            font-size: 1.5rem;
+        }
+     }
+
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    p {
+        font-size: 14px;
+        font-family: $font2;
+        word-spacing: 2px;
+        text-transform: capitalize;
+    }
+}
+
+
+
+
+
+
+
 @media(min-width:460px) {
-    
+   
 }

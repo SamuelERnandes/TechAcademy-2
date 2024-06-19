@@ -66,7 +66,7 @@
                  </ul>
                  <div class="d-flex">
 
-                     <a href="loguin" title="Loguin" class="btn btn-warning">
+                     <a href="login" title="Login" class="btn btn-warning">
                          <i class="fa-solid fa-right-to-bracket"></i>
                          Entrar
                      </a>
@@ -109,7 +109,22 @@
 
 
     
-
+<footer>
+    <div class="footer-content">
+        <img src="imagens/logo.playverce.png" width="150px">
+        <p>PlayVerce Company é uma empresa de desenvolvimento de jogos utilizando Engine Construct 3 </p>
+        <ul class="sociais">
+            <li><a href="https://www.facebook.com/samuel.ernandesdossantos"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/samuel-ernandes-059903291/"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/SamuelERnandes"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyrigth &copy;2024 PlayVerce Company</p>
+        <p>Desenvolvido por - Samuel Ernandes</p>
+    </div>
+</footer>
 
 
      <script src="js/bootstrap.bundle.min.js"></script>

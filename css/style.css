@@ -60,6 +60,9 @@ h1 {
   margin-bottom: 10px;
   box-shadow: 0 0 10px #878787;
 }
+.card img {
+  border-radius: 5px 5px 0 0;
+}
 
 body {
   background-color: #363636;
@@ -141,6 +144,64 @@ input {
   background-color: #780606;
   cursor: pointer;
   transition: 2s;
+}
+
+footer {
+  position: absolute;
+  background: #B81414;
+  height: auto;
+  width: 100%;
+  font-family: Barlow, Arial, Tahoma;
+  padding-top: 40px;
+  color: #FFF;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.sociais {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.sociais li {
+  margin: 0 10px;
+}
+.sociais a {
+  text-decoration: none;
+  color: #FFF;
+}
+.sociais a:hover {
+  color: #FFF000;
+}
+.sociais a i {
+  font-size: 1.5rem;
+}
+
+.footer-bottom {
+  background: #000;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 14px;
+  font-family: Barlow, Arial, Tahoma;
+  word-spacing: 2px;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */

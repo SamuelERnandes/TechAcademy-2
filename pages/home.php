@@ -16,7 +16,7 @@ $dadosBanner = json_decode($dadosApi);
         <?php foreach ($dadosBanner as $posicao => $dados) : ?>
         <?php if ($posicao == 1) : ?>
         <div class="carousel-item active" data-bs-interval="5000">
-            <img src="<?= $dados->imagem ?>" class="d-block w-100">
+            <img src="<?= $dados->imagem ?>"  alt="<?=$dados->nome?>"class="d-block w-100">
         </div>
         <?php else : ?>
         <div class="carousel-item" data-bs-interval="5000">
@@ -59,6 +59,11 @@ $dadosBanner = json_decode($dadosApi);
                         <p>
                             <strong><?php echo $jogos->nome; ?></strong>
                         </p>
+                        <p>
+                            <a href="<?= $jogos->id?>" class="btn btn-warning">
+                                Detalhes
+                            </a>
+                        </p>
 
                 </div>
 
@@ -85,7 +90,7 @@ $dadosBanner = json_decode($dadosApi);
         <p>Assine nossa lista de e-mails, e receba nossos conteúdos sobre desenvolvimento de jogos Mobile e Desktop</p>
         </div>
         
-        <form action="">
+        <form action="form">
             <input type="email" class="form-control" id="email-input" nome="email"
                 placeholder="Coloque se E-mail para Novidades">
             <input type="submit" id="news-btn" value="Inscrever">
