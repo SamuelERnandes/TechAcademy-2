@@ -9,13 +9,15 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta name="description" content="página de Games,lançamentos do ano com jogos Gratuitos e Pagos">
      <meta name="keywords" content="games,jogos,luta,gameplay,lançamentos, jogatina">
+
      <title>PlayVerce</title>
 
      <base href="http://localhost/projects/"> <!-- quando colocar no ar trocar a url-->
      <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
      <link rel="stylesheet" href="css/aos.css">
      <link rel="stylesheet" href="css/style.css">
+
 
      <link rel="shotcut icon" href="imagens/icone.png">
      <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +36,7 @@
 
      <nav class="navbar navbar-expand-lg ">
          <div class="container-fluid">
-             <a class="navbar-brand" href="#">
+             <a class="navbar-brand" href="home">
                  <img src="imagens/logo.playverce.png" width="150px">
              </a>
              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +48,7 @@
                          <a class="nav-link " aria-current="page" href="home">Home</a>
                      </li>
                      <li class="nav-item">
-                         <a class="nav-link" href="equipe">Equipe</a>
+                         <a class="nav-link" href="desenvolvedor">Equipe</a>
                      </li>
                      <li class="nav-item dropdown">
                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -64,11 +66,13 @@
                  </ul>
                  <div class="d-flex">
 
-                     <a href="" title="Download do Projeto" class="btn btn-warning">
-                         Loguin in
+                     <a href="loguin" title="Loguin" class="btn btn-warning">
+                         <i class="fa-solid fa-right-to-bracket"></i>
+                         Entrar
                      </a>
                      <a href="contato" title="Contato" class="btn btn-warning">
-                    
+                         <i class="fa-solid fa-user"></i>
+
                          Contato
                      </a>
 
@@ -80,23 +84,23 @@
 
      <main>
          <?php
-           $pagina ="home";
+            $pagina = "home";
 
-           if(isset($_GET["pagina"])) {
-            $pagina = $_GET["pagina"] ?? "home";
-            $pagina = explode("/", $pagina);
-            //print_R($pagina);
-            $codigo = $pagina[1] ?? NULL;
-            $pagina = $pagina[0] ?? "home";
-           }
-           $pagina = "pages/{$pagina}.php";
-           if(file_exists($pagina)) {
-            include $pagina;
-           }else {
-            include "pages/erro.php";
-           }
+            if (isset($_GET["pagina"])) {
+                $pagina = $_GET["pagina"] ?? "home";
+                $pagina = explode("/", $pagina);
+                //print_R($pagina);
+                $codigo = $pagina[1] ?? NULL;
+                $pagina = $pagina[0] ?? "home";
+            }
+            $pagina = "pages/{$pagina}.php";
+            if (file_exists($pagina)) {
+                include $pagina;
+            } else {
+                include "pages/erro.php";
+            }
 
-         ?>
+            ?>
 
      </main>
 
@@ -104,15 +108,14 @@
 
 
 
-
-
-
+    
 
 
 
      <script src="js/bootstrap.bundle.min.js"></script>
      <script src="js/aos.js"></script>
      <script src="js/fslightbox.js"></script>
+     <script src="js/script.js"></script>
  </body>
 
  </html>

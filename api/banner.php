@@ -5,9 +5,8 @@ header("Content-type: application/json;charset-utf-8");
 
 $banner [1]= array (
     "nome" => "SpeedBird",
-    "imagem" => "imagens/banner.speedbird1.png",
+    "imagem" => "imagens/banner.speedbird.png",
     "id_game" => 1
-
 );
 $banner [2]= array (
     "nome" => "BubleKid",
@@ -17,7 +16,7 @@ $banner [2]= array (
 );
 $banner [3]= array (
     "nome" => "Bambo Strick",
-    "imagem" => "imagens/banner.bambustrick",
+    "imagem" => "imagens/banner.bambustrick.jpg",
     "id_game" => 3
 
 );
@@ -29,7 +28,7 @@ $banner [4]= array (
 );
 $banner [5]= array (
     "nome" => "Explosion Race",
-    "imagem" => "imagens/banner.explosionrace",
+    "imagem" => "imagens/banner.explosionrace.jpg",
     "id_game" => 5
 
 );
@@ -41,7 +40,7 @@ $banner [6]= array (
 );
 $banner [7]= array (
     "nome" => "Mortal Kombat I",
-    "imagem" => "imagens/banner.mortalkombat.jpg",
+    "imagem" => "imagens/banner.motalkombat.jpg",
     "id_game" => 7
 
 );

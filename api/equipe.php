@@ -5,22 +5,22 @@ header("Content-type: application/json;charset-utf-8");
 
 $equipe [1] = array (
     "nome"=> "Samuel Ernandes",
-    "Descricao" => "",
+    "cargo" => "Desenvolvedor Jr",
     "foto"=> ""
 );
 $equipe [2] = array (
     "nome"=> "Luis Miguel",
-    "Descricao" => "",
+    "cargo" => "Desenvolvedor Jr",
     "foto"=> ""
 );
 $equipe [3] = array (
     "nome"=> "Gabriel",
-    "Descricao" => "",
+    "cargo" => "Desenvolvedor Jr",
     "foto"=> ""
 );
 $equipe [4] = array (
     "nome"=> "Kassio",
-    "Descricao" => "",
+    "cargo" => "Desenvolvedor Jr",
     "foto"=> ""
 );
 
