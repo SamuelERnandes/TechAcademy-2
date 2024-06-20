@@ -34,7 +34,7 @@
 
 
 
-     <nav class="navbar navbar-expand-lg ">
+     <nav class="navbar navbar-expand-lg fixed-top">
          <div class="container-fluid">
              <a class="navbar-brand" href="home">
                  <img src="imagens/logo.playverce.png" width="150px">

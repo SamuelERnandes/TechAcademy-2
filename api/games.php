@@ -9,7 +9,7 @@ $games [1] = array (
     "descricao" => "Bem-vindo ao mundo de Endless Run! Prepare-se para uma aventura emocionante onde você assumirá o papel de um pássaro ágil e destemido em busca de superar desafios e conquistar recordes em uma jornada sem fim. Em nosso jogo, você se tornará um pássaro único, dotado de habilidades excepcionais de voo e agilidade. Neste universo vibrante e cheio de cores, você voará através de paisagens deslumbrantes, desde florestas exuberantes até noites escuras, enfrentando obstáculos desafiadores pelo caminho.",
     "poster" => "imagens/poster.speedbird.png" ,
     "banner" => "imagens/banner.speedbird.png",
-    "jogo" => ""
+    "construct" => "construct/SpeedBird2.0"
 );
 $games [2] = array (
     "id" => 2,
@@ -17,7 +17,7 @@ $games [2] = array (
     "descricao" => "",
     "poster" => "imagens/poster.bublekid.jpg" ,
     "banner" => "imagens/banner.bublekid.jpg",
-    "jogo" => ""
+    "construct" => "construct/bublekid"
 );
 $games [3] = array (
     "id" => 3,
@@ -25,49 +25,49 @@ $games [3] = array (
     "descricao" => "",
     "poster" => "imagens/poster.bambustrick.jpg" ,
     "banner" => "imagens/banner.bambustrick.jpg",
-    "jogo" => ""
+    "construct" => "construct/Bamboo Strike"
 );
 $games [4] = array (
     "id" => 4,
     "nome" => "Bomb Sword",
     "descricao" => "",
     "poster" => "imagens/poster.bombsword.jpeg" ,
-    "banner" => "banner.bombsword.jpeg",
-    "jogo" => ""
+    "banner" => "imagens/banner.bombsword.jpeg",
+    "construct" => "construct/BombSword"
 );
 $games [5] = array (
     "id" => 5,
     "nome" => "Explosion Race",
     "descricao" => "",
     "poster" => "imagens/poster.explosionrace.jpg" ,
-    "banner" => "banner.explosionrace",
-    "jogo" => ""
+    "banner" => "imagens/banner.explosionrace.jpg",
+    "construct" => "construct/explosionrace"
 );
 $games [6] = array (
     "id" => 6,
     "nome" => "Assassin's Creed Shadows",
     "descricao" => "Assassin's CreedShadows é um aguardado jogo de ação-aventura e RPG desenvolvido pela Ubisoft Quebec, com lançamento previsto para 15 de novembro de 2024. Este novo título da série Assassin's Creed transporta os jogadores para o Japão feudal, onde poderão explorar um vasto mundo aberto repleto de detalhes históricos e culturais.",
     "poster" => "imagens/poster.assassincread.jpg" ,
-    "banner" => "banner.assassincreed.jpg",
-    "trailer" => "https://www.youtube.com/watch?v=c-0DwhkAWDo"
+    "banner" => "imagens/banner.assassincreed.jpg",
+    "construct" => "https://www.youtube.com/watch?v=c-0DwhkAWDo"
 );
 $games [7] = array (
     "id" => 7,
     "nome" => "Mortal Kombat I",
-    "descricao" => "Mortal Kombat 1 traz um novo mundo, criado pelo Guardião do Tempo e protetor do Plano Terreno, o Deus do Fogo Liu Kang, que representa um recomeço para a franquia.
-Após tomar controle da Ampulheta de Kronika no final de Mortal Kombat 11, ele reinicia o tempo e a história, com a proposta de criar uma existência mais gentil e pacífica para os habitantes de todos os Reinos, libertando-os do mal que os têm atormentado por eras.
-Através de sua visão, veremos personagens familiares entrarem nesse universo recriado, de novas maneiras. Mas Liu Kang logo percebe que há alguém interferindo em seu plano para o universo, e precisa descobrir quem, antes que esse inimigo desconhecido destrua toda a realidade.",
+    "descricao" => "Após cessar o suporte para Mortal Kombat 11, a NetherRealm Studios revelou que estava trabalhando em um novo projeto em julho de 2021. O dublador de Johnny Cage, Andrew Bowen, indicou que a décima segunda parcela estava em desenvolvimento em um tweet excluído às pressas.
+
+Em 18 de maio de 2023, a NetherRealm Studios anunciou Mortal Kombat 1 com data de lançamento para 19 de setembro de 2023. É uma reinicialização da série e se passa na linha do tempo da Nova Era criada por Liu Kang depois que ele alcançou a divindade em Mortal Kombat 11 em 2019.[3] A NetherRealm Studios também anunciou que aqueles que encomendarem qualquer versão do jogo para PS5 e Xbox Series antes do lançamento também receberão acesso a uma versão beta em agosto e, após o lançamento do jogo, a NetherRealm fornecerá cross-play e cross-progression.[4]",
     "poster" => "imagens/poster.mortalkombat.jpg" ,
-    "banner" => "banner.mortalkombat.jpg",
-    "trailer" => "https://www.youtube.com/watch?v=Ue1Yo-3QnRc"
+    "banner" => "imagens/banner.motalkombat.jpg",
+    "construct" => "https://www.youtube.com/watch?v=Ue1Yo-3QnRc"
 );
 $games [8] = array (
     "id" => 8,
     "nome" => "Red Dead Redemption II",
     "descricao" => "Red Dead Redemption 2 é um jogo de ação e aventura em mundo aberto desenvolvido pela Rockstar Games. O jogo se passa em 1899, no final da era do Velho Oeste, e segue a história do fora-da-lei Arthur Morgan, membro da gangue Van der Linde. Morgan e seus companheiros estão em fuga após um assalto fracassado em Blackwater, e agora precisam sobreviver em um mundo implacável enquanto são perseguidos por agentes da lei e caçadores de recompensas.",
     "poster" => "imagens/poster.reddead.jpg" ,
-    "banner" => "banner.reddead.jpg",
-    "trailer" => "https://www.youtube.com/watch?v=gmA6MrX81z4"
+    "banner" => "imagens/banner.reddead.jpg",
+    "construct" => "https://www.youtube.com/watch?v=gmA6MrX81z4"
 );
 
 echo json_encode($games);

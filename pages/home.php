@@ -46,21 +46,23 @@ $dadosBanner = json_decode($dadosApi);
             <?php
                 $url = "http://localhost/projects/api/games.php";
 
-            $dados = file_get_contents($url);
+            $dadosApi = file_get_contents($url);
 
-            $dados = json_decode($dados);
+            $dadosJogos = json_decode($dadosApi);
 
-            foreach ($dados as $jogos) {
+            foreach ($dadosJogos as $jogos) {
             ?>
                 <div class="col-12 col-md-3 text-center">
                     
                     <div class="card">
-                     <img src="<?= $jogos->poster ?>" alt="<?= $jogos->nome ?> class=" w-100">
+                     <img src="<?= $jogos->poster ?>" alt="<?= $jogos->nome ?> class=" w-100" class="card-img-top">
+
                         <p>
                             <strong><?php echo $jogos->nome; ?></strong>
                         </p>
                         <p>
-                            <a href="<?= $jogos->id?>" class="btn btn-warning">
+                            <a href="game/<?=$jogos->id?>" title="Detalhes do Jogo" class="btn btn-warning">
+                            <i class="fa-solid fa-gamepad"></i>
                                 Detalhes
                             </a>
                         </p>
@@ -89,12 +91,13 @@ $dadosBanner = json_decode($dadosApi);
         <div class="desaparecer">
         <p>Assine nossa lista de e-mails, e receba nossos conteúdos sobre desenvolvimento de jogos Mobile e Desktop</p>
         </div>
-        
-        <form action="form">
-            <input type="email" class="form-control" id="email-input" nome="email"
+    </div>
+    
+</div>
+<div>
+<form action="form" class="text-center m-4">
+            <input type="email" class="form-control " id="email-input" nome="email"
                 placeholder="Coloque se E-mail para Novidades">
             <input type="submit" id="news-btn" value="Inscrever">
         </form>
-
-    </div>
 </div>
