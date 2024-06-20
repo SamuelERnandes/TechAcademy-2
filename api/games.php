@@ -46,7 +46,7 @@ $games [5] = array (
 $games [6] = array (
     "id" => 6,
     "nome" => "Assassin's Creed Shadows",
-    "descricao" => "Assassin's CreedShadows é um aguardado jogo de ação-aventura e RPG desenvolvido pela Ubisoft Quebec, com lançamento previsto para 15 de novembro de 2024. Este novo título da série Assassin's Creed transporta os jogadores para o Japão feudal, onde poderão explorar um vasto mundo aberto repleto de detalhes históricos e culturais.",
+    "descricao" => "Assassin's Creed Shadows é um jogo de ação e aventura desenvolvido pela Ubisoft. Situado em uma era histórica detalhada, o jogo segue a jornada de um assassino em um mundo aberto repleto de missões, parkour, combate corpo a corpo e furtividade. Os jogadores exploram cidades vibrantes, completam objetivos diversos e desvendam uma trama complexa envolvendo conspirações e traições. O jogo também oferece modos de personalização de personagem e habilidades, bem como atividades secundárias e segredos escondidos no ambiente rico em detalhes.",
     "poster" => "imagens/poster.assassincread.jpg" ,
     "banner" => "imagens/banner.assassincreed.jpg",
     "construct" => "https://www.youtube.com/watch?v=c-0DwhkAWDo"

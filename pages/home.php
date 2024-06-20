@@ -55,7 +55,7 @@ $dadosBanner = json_decode($dadosApi);
                 <div class="col-12 col-md-3 text-center">
                     
                     <div class="card">
-                     <img src="<?= $jogos->poster ?>" alt="<?= $jogos->nome ?> class=" w-100" class="card-img-top">
+                     <img src="<?= $jogos->poster ?>" alt="<?= $jogos->nome ?> class=" w-100" >
 
                         <p>
                             <strong><?php echo $jogos->nome; ?></strong>
