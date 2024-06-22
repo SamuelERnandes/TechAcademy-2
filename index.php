@@ -114,10 +114,10 @@
         <img src="imagens/logo.playverce.png" width="150px">
         <p>PlayVerce Company é uma empresa de desenvolvimento de jogos utilizando Engine Construct 3 </p>
         <ul class="sociais">
-            <li><a href="https://www.facebook.com/samuel.ernandesdossantos"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/samuel-ernandes-059903291/"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/SamuelERnandes"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.facebook.com/samuel.ernandesdossantos" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/samuel-ernandes-059903291/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/SamuelERnandes" target="_blank"><i class="fa-brands fa-github"></i></a></li>
         </ul>
     </div>
     <div class="footer-bottom">

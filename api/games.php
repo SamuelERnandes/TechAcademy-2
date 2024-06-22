@@ -9,39 +9,39 @@ $games [1] = array (
     "descricao" => "Bem-vindo ao mundo de Endless Run! Prepare-se para uma aventura emocionante onde você assumirá o papel de um pássaro ágil e destemido em busca de superar desafios e conquistar recordes em uma jornada sem fim. Em nosso jogo, você se tornará um pássaro único, dotado de habilidades excepcionais de voo e agilidade. Neste universo vibrante e cheio de cores, você voará através de paisagens deslumbrantes, desde florestas exuberantes até noites escuras, enfrentando obstáculos desafiadores pelo caminho.",
     "poster" => "imagens/poster.speedbird.png" ,
     "banner" => "imagens/banner.speedbird.png",
-    "construct" => "construct/SpeedBird2.0"
+    "construct" => "construct/SpeedBird2.0/index.html"
 );
 $games [2] = array (
     "id" => 2,
     "nome" => "BubleKid",
-    "descricao" => "",
+    "descricao" => "Bubble Kid é um jogo divertido e desafiador que combina elementos de ação, plataforma e quebra-cabeças. O jogador controla um personagem carismático, conhecido como Bubble Kid, que tem a habilidade única de pular nas plataformas. Essas bolhas podem ser usadas para capturar inimigos, alcançar áreas difíceis e resolver quebra-cabeças ao longo dos níveis.",
     "poster" => "imagens/poster.bublekid.jpg" ,
     "banner" => "imagens/banner.bublekid.jpg",
-    "construct" => "construct/bublekid"
+    "construct" => "construct/bublekid/index.html"
 );
 $games [3] = array (
     "id" => 3,
-    "nome" => "Bambo Strick",
-    "descricao" => "",
+    "nome" => "Bambu Strick",
+    "descricao" => "Bambu Strick Ninja é um jogo de ação e aventura que coloca os jogadores no papel de um habilidoso ninja com a missão de cortar bambus enquanto enfrenta inimigos e supera obstáculos. Com uma jogabilidade rápida e desafiadora, o jogo combina elementos de precisão, estratégia e reflexos rápidos.",
     "poster" => "imagens/poster.bambustrick.jpg" ,
     "banner" => "imagens/banner.bambustrick.jpg",
-    "construct" => "construct/Bamboo Strike"
+    "construct" => "construct/Bamboo Strike/index.html"
 );
 $games [4] = array (
     "id" => 4,
     "nome" => "Bomb Sword",
-    "descricao" => "",
+    "descricao" => "Bomb Sword é um jogo de ação e aventura que mistura combates intensos com elementos estratégicos, onde os jogadores empunham uma espada mágica capaz de causar explosões devastadoras. Com uma narrativa cativante e jogabilidade desafiadora, o jogo leva os jogadores através de diversos ambientes repletos de inimigos, quebra-cabeças e obstáculos.",
     "poster" => "imagens/poster.bombsword.jpeg" ,
     "banner" => "imagens/banner.bombsword.jpeg",
-    "construct" => "construct/BombSword"
+    "construct" => "construct/BombSword/index.html"
 );
 $games [5] = array (
     "id" => 5,
     "nome" => "Explosion Race",
-    "descricao" => "",
+    "descricao" => "Explosion Race é um emocionante jogo de corrida onde os jogadores devem desviar de bombas e obstáculos enquanto competem para alcançar a linha de chegada. Com ação rápida e gráficos vibrantes, o jogo oferece uma experiência eletrizante que testa reflexos e habilidades de direção.",
     "poster" => "imagens/poster.explosionrace.jpg" ,
     "banner" => "imagens/banner.explosionrace.jpg",
-    "construct" => "construct/explosionrace"
+    "construct" => "construct/explosionrace/index.html"
 );
 $games [6] = array (
     "id" => 6,
@@ -59,7 +59,7 @@ $games [7] = array (
 Em 18 de maio de 2023, a NetherRealm Studios anunciou Mortal Kombat 1 com data de lançamento para 19 de setembro de 2023. É uma reinicialização da série e se passa na linha do tempo da Nova Era criada por Liu Kang depois que ele alcançou a divindade em Mortal Kombat 11 em 2019.[3] A NetherRealm Studios também anunciou que aqueles que encomendarem qualquer versão do jogo para PS5 e Xbox Series antes do lançamento também receberão acesso a uma versão beta em agosto e, após o lançamento do jogo, a NetherRealm fornecerá cross-play e cross-progression.[4]",
     "poster" => "imagens/poster.mortalkombat.jpg" ,
     "banner" => "imagens/banner.motalkombat.jpg",
-    "construct" => "https://www.youtube.com/watch?v=Ue1Yo-3QnRc"
+    "construct" => "https://www.youtube.com/embed/Ue1Yo-3QnRc"
 );
 $games [8] = array (
     "id" => 8,

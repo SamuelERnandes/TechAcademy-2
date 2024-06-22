@@ -11,7 +11,7 @@
         placeholder="Digite um e-mail válido"
         class="form-control form-control-lg">
 
-        <button type="submit" class="btn btn-warninggit  btn-lg">
+        <button type="submit" class="btn btn-warning git  btn-lg">
             Enviar Mensagem
         </button>
     </form>
