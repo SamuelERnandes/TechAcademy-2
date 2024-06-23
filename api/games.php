@@ -9,7 +9,7 @@ $games [1] = array (
     "descricao" => "Bem-vindo ao mundo de Endless Run! Prepare-se para uma aventura emocionante onde você assumirá o papel de um pássaro ágil e destemido em busca de superar desafios e conquistar recordes em uma jornada sem fim. Em nosso jogo, você se tornará um pássaro único, dotado de habilidades excepcionais de voo e agilidade. Neste universo vibrante e cheio de cores, você voará através de paisagens deslumbrantes, desde florestas exuberantes até noites escuras, enfrentando obstáculos desafiadores pelo caminho.",
     "poster" => "imagens/poster.speedbird.png" ,
     "banner" => "imagens/banner.speedbird.png",
-    "construct" => "construct/SpeedBird2.0/index.html"
+    "construct" => "http://localhost/projects/construct/SpeedBird2.0/"
 );
 $games [2] = array (
     "id" => 2,
@@ -67,7 +67,7 @@ $games [8] = array (
     "descricao" => "Red Dead Redemption 2 é um jogo de ação e aventura em mundo aberto desenvolvido pela Rockstar Games. O jogo se passa em 1899, no final da era do Velho Oeste, e segue a história do fora-da-lei Arthur Morgan, membro da gangue Van der Linde. Morgan e seus companheiros estão em fuga após um assalto fracassado em Blackwater, e agora precisam sobreviver em um mundo implacável enquanto são perseguidos por agentes da lei e caçadores de recompensas.",
     "poster" => "imagens/poster.reddead.jpg" ,
     "banner" => "imagens/banner.reddead.jpg",
-    "construct" => "https://www.youtube.com/watch?v=gmA6MrX81z4"
+    "construct" => "https://www.youtube.com/watch?v=eaW0tYpxyp0"
 );
 
 echo json_encode($games);

@@ -3,6 +3,7 @@
 header("ccess-Control-Allow-Origin: *");
 header("Content-type: application/json;charset-utf-8");
 
+
 $banner [1]= array (
     "nome" => "SpeedBird",
     "imagem" => "imagens/banner.speedbird.png",

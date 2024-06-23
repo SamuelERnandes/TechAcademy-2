@@ -1,7 +1,7 @@
 <?php
        //$dados = $dadosGames;
-       $dados = $dadosGames -> $codigo
-       //print_r($dadosGames);
+       $dados = $dadosGames -> $codigo;
+       //print_r($dados);
 
         ?>
 
@@ -47,5 +47,11 @@
 </div>
 
 <h2 class="text-center">Jogar Agora</h2>
-    <iframe width="100%" height="600" src="<?=$dados->construct?>"></iframe>
-    
+<?php
+   $url= "http://localhost/projects/api/games.php";
+   $dados2 = file_get_contents($url);
+   $dados2 = json_decode($dados2);
+   $dados2 = $dados2->$codigo;
+  
+ ?>
+     <iframe width="100%" height="600" src="<?=$dados2->construct?>"></iframe>
