@@ -76,12 +76,12 @@ body {
   padding: 10px;
 }
 #news-area h3 {
-  color: #FFF000;
+  color: black;
 }
 #news-area p {
   font-size: 18px;
   margin-bottom: 40px;
-  color: #FFF000;
+  color: black;
 }
 
 #email-input {
