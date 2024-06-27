@@ -85,7 +85,7 @@ $dadosBanner = json_decode($dadosApi);
     <div class="container">
         <div class="col-md-12">
             <h3 class="main-title text-center">
-                Fique por Dentro das Novidades !!
+                Fique por Dentro dos lançamentos !!
             </h3>
         </div>
         <div class="desaparecer">
